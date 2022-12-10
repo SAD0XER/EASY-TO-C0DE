@@ -1,0 +1,46 @@
+<!-- Created by Tapabrata 💞 Wixonic -->
+
+<!--Made by Tapabrata Banerjee and 🌍🌎🌏𝐀𝐢𝐦🌍🌎🌏-->
+<!--If you like it please upvote, comment, share and follow 😊😁-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>String and Binary 2 in 1 Converter</title>
+        <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'> 
+    </head>
+    <body>
+        <div id = "bToS">
+        <center>
+            <textarea id = "binIn" placeholder = "Enter Binary"></textarea>
+            <br><br>
+            <button id="convert1" onclick="binToS()">CONVERT</button>
+            <br><br>
+            <textarea id = "strOut" disabled></textarea>
+            <br><br>
+            <button id="copy1" onclick="copyStr()">COPY</button>
+            <br><br>
+            <button onclick="converter1()" id="conv1">Use String to Binary Converter</button>
+            <br><br>
+            </center>
+        </div>
+        <div id = "sToB">
+        <center>
+            <textarea id = "strIn" placeholder = "Enter String"></textarea>
+            <br><br>
+            <button id="convert2" onclick="sToBin()">CONVERT</button>
+            <br><br>
+            <textarea id = "binOut" disabled></textarea>
+            <br><br>
+            <button id="copy2" onclick="copyBin()">COPY</button>
+            <br><br>
+            <button onclick="converter2()" id="conv2">Use Binary to String Converter</button>
+            <br><br>
+            </center>
+        </div>
+        <script>
+                           document.getElementById('sToB').style.display = 'block';
+    document.getElementById('bToS').style.display = 'none';
+        </script>
+    </body>
+</html>
