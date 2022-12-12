@@ -10,22 +10,6 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sad0xer&repo=EASY-TO-C0DE&theme=vision-friendly-dark" />
 </a> -->
 
-# My Favourite Peoples and Organizations :)
-
-<h3><a href="https://github.com/CodeWithHarry">1.  @CodeWithHarry</a></h3>
-
-<h3><a href="https://github.com/shradha-khapra">2.  @shradha-khapra</a></h3>
-
-<h3><a href="https://github.com/apna-college">3.  @apna-college</a></h3>
-
-<h3><a href="https://github.com/anuraghazra">4.  @anuraghazra</a></h3>
-
-<!-- <h3><a href="">0.  @</a></h3>
-
-[Link Text](Link) -->
-
-
-
 <!--To Rename Your local banch same as remote:
 git branch -m main Master
 git fetch origin
