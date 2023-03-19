@@ -1,5 +1,8 @@
 <!-- Readme Repository Card -->
 <div align=center>
+
+![visitor badge](https://visitor-badge.glitch.me/badge?page_id=sad0xer.EASY-TO-C0DE&left_text=Profile%20Visit%20Count)
+
   <h2>About This <code>EASY-TO-C0DE</code> Repository</h2>
   <h3>This is the repository of my all those code when I start my coding journey in April 2020 (Lockdown).
   <br/>I think this is not heplful for other people because here are just my old practice source codes.<br/>
