@@ -5,7 +5,7 @@
     If you want to explore more, then you can but you'll find things helpful (I think so).<br/>
     So, if you are reading this then you are in right place.:sweat_smile:<br/>
     This Repository is for recruiters who want to see how much I have practised yet.:fire::smile:
-</p>
+</p><hr/>
   
   <div align = "left">
 <h1>:bookmark:Important Marks:bookmark:</h1>
