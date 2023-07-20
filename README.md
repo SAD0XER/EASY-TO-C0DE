@@ -15,7 +15,11 @@
       <li>
         <h6><a href="https://github.com/SAD0XER/EASY-TO-C0DE/blob/Master/Github_Profile_Course_by_EddieJaoude">Eddie Jaoude GitHub Profile Course</a></h6>
       </li>
-<h6><a href="https://github.com/SAD0XER/EASY-TO-C0DE/tree/Master/Sololearn">Sololearn Folder</a></h6>
+      <li>
+        <h6><a href="https://github.com/SAD0XER/EASY-TO-C0DE/tree/Master/Sololearn">Sololearn Folder</a></h6>
+      </li>
+      
+
 <h6><a href="https://github.com/SAD0XER/EASY-TO-C0DE/tree/Master/Dcoder">Dcoder Folder</a></h6>
     </ul>
   </div>
