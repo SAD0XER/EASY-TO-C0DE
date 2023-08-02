@@ -81,11 +81,17 @@ Style 2: Ordered list all using "1."
 
 Table:
 
+Table with table head row:
+
 | Column 1        | Column 2        | Column 3        |
 | :-------------- | :-------------- | :-------------- |
 | Row 1, Column 1 | Row 1, Column 2 | Row 1, Column 3 |
 | Row 2, Column 1 | Row 2, Column 2 | Row 2, Column 3 |
 | Row 3, Column 1 | Row 3, Column 2 | Row 3, Column 3 |
+
+Table without table head row:
+| SAD | DSA |
+|-|-|
 
 Html Table:
 
