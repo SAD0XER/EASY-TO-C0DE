@@ -7,6 +7,6 @@
 <h1>:bookmark:Important BookMarks:bookmark:</h1>
 
 | [GitHub Profile Course by Eddie Jaoude](https://github.com/SAD0XER/EASY-TO-C0DE/blob/Master/Github_Profile_Course_by_EddieJaoude) | [Sololearn Folder](https://github.com/SAD0XER/EASY-TO-C0DE/tree/Master/Sololearn) | [Dcoder Folder](https://github.com/SAD0XER/EASY-TO-C0DE/tree/Master/Dcoder) | [Web-Development-Internship](https://github.com/SAD0XER/EASY-TO-C0DE/Web-Development-Internship)
-|-|-|-|
+|-|-|-|-|
   </div>
 </div>
