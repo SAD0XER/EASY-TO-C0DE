@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1f1f1f;
+}
+
+header {
+    background-color: #ffff00;
+    color: #1f1f1f;
+    text-align: center;
+    padding: 20px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    box-shadow: 0 0 10px rgb(255, 255, 0, 0.5);
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffff00;
+    border-radius: 100px;
+    box-shadow: 0 0 10px rgb(255, 255, 0, 0.5);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-img {
+    max-width: 200px;
+    border-radius: 100%;
+    align-self: center;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #1f1f1f;
+}
+
+.download-cv {
+    background-color: #1f1f1f;
+    color: #ffff00;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.skills {
+    list-style-type: none;
+}
+
+.accomplishments {
+    list-style-type: square;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffff00;
+    color: #1f1f1f;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    box-shadow: 0 0 10px rgb(255, 255, 0, 0.5);
+}

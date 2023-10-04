@@ -1,0 +1,60 @@
+body {
+    font-family:Arial, sans-serif;
+    text-align: center;
+    background-color: black;
+}
+
+label {
+    color:#ffff00;
+}
+
+h2 {
+    color: #ffff00;
+    margin-top: 10px;
+    border-color: #ffff00;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+select, input {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #ffff00;
+}
+
+#converter {
+    margin: 50px auto;
+    padding: 20px;
+    width: 300px;
+    height: 230px;
+    background-color: #1f1f1f;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px rgb(255, 255, 0);
+}
+
+#answer-box {
+    background-color: white;
+    border: solid white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#temperature {
+    width: 90%;
+    border-style: hidden;
+}
+
+#result {
+    color:#03a9f4;
+}
+
+#celsius {
+    text-align: center;
+}
+
+#fahrenheit {
+    text-align: center;
+}
