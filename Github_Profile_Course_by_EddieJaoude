@@ -154,9 +154,9 @@ Quote:
 
 Checkbox:
 
-[ ] this is Uncheked checkbox.
+- [ ] this is Uncheked checkbox.
 
-[x] this is Checked checkbox.
+- [x] this is Checked checkbox.
 
 
 Comments:
@@ -165,6 +165,7 @@ Comments:
 
 
 Add Collapsable section:
+
 <details>
 <summary>Click to expand!</summary>
 
