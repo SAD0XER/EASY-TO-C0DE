@@ -1,0 +1,17 @@
+class Solution {
+    public int removeDuplicates(int[] nums) {
+        if (nums.length == 0) { //Base Case.
+            return 0;
+        }
+        
+        int count = 1; //count of unique elementes.
+
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] != nums[count - 1]) { //Checking that My Previous Element is NOT Equals (!=) to my Current Element?
+                nums[count] = nums[i]; //Rewiring the elements.
+                count++; //Updating the counter.
+            }
+        }
+        return count;
+    }
+}
