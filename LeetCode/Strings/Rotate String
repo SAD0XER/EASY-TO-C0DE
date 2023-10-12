@@ -1,0 +1,10 @@
+class Solution {
+    public boolean rotateString(String s, String goal) {
+        if (s.length() != goal.length()) { //Base Case.
+            return false;
+        }
+
+        String temp = s + s; // Concatenate s with itself
+        return temp.contains(goal); // Check if goal is a substring of temp or not.
+    }
+}
