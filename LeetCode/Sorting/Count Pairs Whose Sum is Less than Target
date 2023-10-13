@@ -1,0 +1,16 @@
+class Solution {
+    public int countPairs(List<Integer> nums, int target) {
+
+        int count = 0; //Counter variable for counting the number of pairs.
+
+        for (int i = 0; i < nums.size(); i++) { //Outer loop: will run from 0 to end.
+            for (int j = i+1; j < nums.size(); j++) { //Inner loop: will run from i+1 to end.
+                // int sum = nums.get(i) + nums.get(j); //storing the sum of pairs.
+                if (nums.get(i) + nums.get(j) < target) { //Checking whether the 'sum' is lesser than target or not.
+                    count++; //if yes? Increase the counter by 1.
+                }
+            }
+        }
+        return count;
+    }
+}
