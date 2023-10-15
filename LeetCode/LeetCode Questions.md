@@ -4,3 +4,4 @@
 3. Rotate String: `String` `String Matching`
 4. Count Pairs Whose Sum is Less than Target: `Two Pointer` `Array` `Sorting`
 5. Count the Number of Fair Pairs: `Two Pointer` `Array` `Binary Search` `Sorting`
+6. Sum of Values at Indices With K Set Bits: `Array` `Bit Manipulation`

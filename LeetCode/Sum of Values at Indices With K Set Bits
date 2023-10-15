@@ -1,0 +1,28 @@
+class Solution {
+    //Function to Count the Set Bits in given number.
+    public static int countSetBits(int n) {
+        int count = 0;
+        while (n > 0) {
+            if ((n & 1) != 0) {
+                count++;
+            }
+            n >>= 1;
+        }
+        return count;
+    }
+
+    public static int sumIndicesWithKSetBits(List<Integer> nums, int k) {        
+        int answer = 0, count = 0; //Initialization
+        
+        for (int i = 0; i < nums.size(); i++) { //Iteration from 0-n.
+            int num = nums.get(i); //Getting element from respective index.
+            count = countSetBits(i); //Count the number of set bits in `Index`.
+            
+            if (count == k) { //Checking: If count is equals to `k`
+                // answer += nums.get(i);
+                answer += num; //Then add it in the answer.
+            }
+        }
+        return answer;
+    }
+}
