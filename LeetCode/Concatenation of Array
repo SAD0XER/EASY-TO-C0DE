@@ -1,0 +1,12 @@
+class Solution {
+    public int[] getConcatenation(int[] nums) {
+        int[] ans = new int[2 * nums.length]; //Created double size of array of given array.
+
+        for (int i = 0; i < nums.length; i++) {
+            ans[i] = nums[i]; //Assigning value in 'ans' array normally.
+            ans[i + nums.length] = nums[i]; 
+            /*let's say i = 0 and n = nums.length, then ans[i+n] means 0+n = n that is size is 4. so, at the index 4 we will assign `nums[0]` */
+        }
+        return ans;
+    }
+}
