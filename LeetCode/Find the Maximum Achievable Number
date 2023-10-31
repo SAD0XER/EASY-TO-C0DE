@@ -1,0 +1,16 @@
+class Solution {
+    public int theMaximumAchievableX(int num, int t) {
+        int x = num + t;
+
+        for (int i = 0; i < t; i++) {
+            x--;
+            num++;
+        }
+        return num + t;
+        /*These are the answers of other.*/
+        // return num + t + t;
+        // return num + t * 2;
+        // return num + (t * 2);
+        // return (t * 2) + num;
+    }
+}

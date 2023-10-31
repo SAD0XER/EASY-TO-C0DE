@@ -8,3 +8,4 @@
 7. Concatenation of Array: `Array`
 8. Defanging an IP Address: `String`
 9. Convert the Temperature: `Math`
+10. Find the Maximum Achievable Number: `Math`
