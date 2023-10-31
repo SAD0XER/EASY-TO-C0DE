@@ -7,3 +7,4 @@
 6. Sum of Values at Indices With K Set Bits: `Array` `Bit Manipulation`
 7. Concatenation of Array: `Array`
 8. Defanging an IP Address: `String`
+9. Convert the Temperature: `Math`

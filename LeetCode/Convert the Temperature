@@ -1,0 +1,10 @@
+class Solution {
+    public double[] convertTemperature(double celsius) {
+    //     double[] ans = new double[2]; //Created an Array named 'ans' size of 2.
+    //     ans[0] = celsius + 273.15; //At 0th index of 'ans' array assigned Kelvin Formula which is Kelvin = Celsius + 273.15.
+    //     ans[1] = celsius * 1.80 + 32.00;//At 1st index of 'ans' array assigned Fahrenheit Formula which is Fahrenheit = Celsius * 1.80 + 32.00.
+    //     return ans; //Finally, returned the array.
+    // }
+    return new double[] { celsius + 273.15, celsius * 1.80 + 32.00 };
+    }
+}
