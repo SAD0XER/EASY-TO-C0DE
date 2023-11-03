@@ -1,7 +1,9 @@
 <div align = "center">
   <h1>About <code>EASY-TO-C0DE</code> Repository</h1>
-    This is the repository of all the source codes when I start my coding journey in **April 2020** (Lockdown).<br/>
-  <hr/>
+    This is the repository of all the source codes when I start my coding journey in **April 2020** (Lockdown).
+<br/>
+
+<hr/>
   
   <div align = "left">
 <h1>:bookmark:Important BookMarks:bookmark:</h1>
