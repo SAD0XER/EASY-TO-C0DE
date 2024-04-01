@@ -10,18 +10,32 @@
 
 <table align = "center">
 <tr>
-<td>[GitHub Profile Course by Eddie Jaoude](https://github.com/SAD0XER/EASY-TO-C0DE/blob/Master/Github_Profile_Course_by_EddieJaoude)</td>
+<td>
+  
+  [GitHub Profile Course by Eddie Jaoude](https://github.com/SAD0XER/EASY-TO-C0DE/blob/Master/Github_Profile_Course_by_EddieJaoude)
+  
+</td>
 
-<td>[Sololearn Folder](https://github.com/SAD0XER/EASY-TO-C0DE/tree/Master/Sololearn)</td>
+<td>
+  
+  [Sololearn Folder](https://github.com/SAD0XER/EASY-TO-C0DE/tree/Master/Sololearn)
+  
+</td>
 
-<td>[Dcoder Folder](https://github.com/SAD0XER/EASY-TO-C0DE/tree/Master/Dcoder)</td>
+<td>
+  
+  [Dcoder Folder](https://github.com/SAD0XER/EASY-TO-C0DE/tree/Master/Dcoder)
+  
+</td>
 
 <td>
 <details open>
 <summary><a href = https://github.com/SAD0XER/EASY-TO-C0DE/Web-Development-Internship" alt = "Web Development Internship Folder">Web Development Internship Folder</a></summary>
 <ul>
+  
 - [My Portfolio Website](https://github.com/SAD0XER/EASY-TO-C0DE/Web-Development-Internship/My%20Porfolio%20Website)
 - [Temperature Converter](https://github.com/SAD0XER/EASY-TO-C0DE/Web-Development-Internship/Temperature%20Converter)
+
 </details>
 </td>
 </tr>
