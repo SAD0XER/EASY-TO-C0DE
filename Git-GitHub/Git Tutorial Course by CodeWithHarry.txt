@@ -1,0 +1,70 @@
+# These are some Linux-based Git commands:
+
+- pwd (Present Directory): Used to show your current working directory.
+
+- ls (List): Used to List all the content present in the folder. Excluded Empty folders. (if it does not work then run this 'ls --all')
+
+- cd (Change Directory): Used to change directory.
+
+- git status: used to check the status of the git repository.
+
+- rm -rf .git: Used to delete complete .git repository.[DELETE (.git) REPOSITORY]
+
+- git init: used to Initialise new repository.
+
+========How to Add files into Staging Area========
+- git add "file.name" or file_name: used to add files to the stage.
+
+- git add --a: (a = all) used to add all files into the stage area.
+
+- git --cached <file>: used to go on previous commit.
+
+
+=========How to Commit Files in git bash==========
+- git commit -m "Your message": Used to commit file with the message.
+
+- git commit -a -m "Your message": Used to commit files directly, If you run this command then you'll avoid the staging area.
+PS:- If you want to skip the "staging area" and want to "commit" file directly? then use this command [git commit -a -m "Your message." ]
+
+Explanation: "git commit" is used for committing files.
+
+"-a" I think this is a short form of "--a" and 'a' means "all". [Remember that command, we use that command for staging all files at once: git add --a ]
+"-m" is used for adding a message with your commit.
+
+NOTE: Using this command you can skip the stage area with only tracked file. You can't skip the stage area if your file is not tracked. So, first, track the file then directly commit the file with an appropriate message.
+
+=====How to Interact with VIM editor in git bash======
+- git commit: used to commit files in git bash.
+[ After running this command Git will open VIM Editor and then follow the following steps:
+1) press 'i' to Type in the Vim editor.
+2) For the Exit from Vim editor press "Ecs(button):wq" and enter
+
+- git rm <file.name>: Used to remove the file/delete. with staged [rm=remove]
+
+- git rm <file>: suppose you delete one file1 manually & you check in the git status, you'll find the file is 'deleted' & then you create one another file2 and if you check the status then you'll see your old deleted file is renamed with your new file.
+
+- git mv <file.name> <renamed.name>: Used to Rename a file. with staged [mv=move]
+
+- git rm --cached <file.name>: Used to untrack files explicitly.
+
+PS: suppose you have one file that you're already tracking and now you no longer need that file so, you move that file into the ".gitignore" file, but steel git is tracking that file, and it won't stop tracking. To solve this problem you have to untrack that file explicitly. For that, you have to run this command.
+
+=====Working with Remote=====
+- git add remote <Remote_Repository_Name> <URL>: Used to add remote of your hosted repository on another server. Ex., GitHub.
+
+NOTE: If you're trying to push your repo. to the remote repo. and seeing
+ERROR: Permission to <username/RepoName.git denied to <your_local-name>
+fatal: Could not read from remote repository.
+Then it means your git is not registered on GitHub. So, you need to add the SHH key to your GitHub account.
+Go to the GitHub account settings >> SSH and GPG keys >> and read the Guide to 'generating SHH keys'.
+
+=========Working with Branch==========
+- git checkout -b <BranchName>: To create new branch in your repository.
+
+- git checkout <BranchName>: To switch branch.
+
+- git branch -d <BranchName>: To delete branch.
+
+- git branch -D <BranchName>: To delete branch.
+
+- git stash -u: To save changes in the current branch without committing.
