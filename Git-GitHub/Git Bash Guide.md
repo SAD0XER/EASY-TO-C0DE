@@ -1,4 +1,6 @@
-<details align = "center">
+# Quick Git/GitHub Guide and Tricks to save your work
+
+<details>
   <summary><h2>How to edit/amend commits local commits?</h2></summary>
 
 **To amend commits, you can use an interactive rebase. This allows you to go back to the commit you want to change, make the necessary changes, and then continue the rebase process.**
@@ -68,6 +70,28 @@
    If you encounter conflicts, resolve them, stage the resolved files, and run `git rebase --continue` again. Repeat until the rebase is finished.
 
 By following these steps, you can successfully amend commits.
-If you need to do this using SSH, you can connect to your remote machine via SSH and run these commands just as you would on your local machine.
+
+</details>
+
+<details>
+  <summary><h2>How to edit recently pushed remote code or commit?</h2></summary>
+
+### Steps to change remote pushed code/commit.
+
+1. Run `git rebase -i HEAD~N;
+`PS: replace N with number of commits you want to edit.`
+   (_It will open VIM editor._)
+
+2. Press `i` and decide which commit you wanted to edit and type `e` or `edit` in front of that commit. Finally, save and exit the VIM by pressing `esc` button then type `:wq` and hit Enter.
+
+3. Make changes in your code. and add/stage those changes by running `git add <file.name>` or `git add --all` command.
+
+4. Run `git commit --amend`
+
+5. Run `git commit --continue`
+
+6. Run `git push --force` or `git push -f`
+
+By following these steps, you can successfully change remote code/commits.
 
 </details>
